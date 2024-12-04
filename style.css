@@ -164,3 +164,20 @@ a{
     justify-content: end;
     font-weight: bold;
 }
+
+/* Call To ACtion Section starts here */
+
+.calltoaction{
+    display: flex;
+    margin: 60px 100px 60px 100px;
+    padding: 30px 60px 30px 60px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.calltoaction .sign-up{
+    border: 1px solid #e5e7eb;
+}
