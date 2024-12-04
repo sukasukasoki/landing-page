@@ -122,6 +122,7 @@ a{
     flex-wrap: wrap;
     width: 150px;
     text-align: center;
+    gap: 5px;
 }
 
 .box{
@@ -145,6 +146,7 @@ a{
     align-items: center;
     flex-direction: column;
     background-color: #e5e7eb;
+    padding: 60px 0 60px 0;
 }
 
 .quote-container .text{
