@@ -181,3 +181,18 @@ a{
 .calltoaction .sign-up{
     border: 1px solid #e5e7eb;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    color: white;
+    background-color: #1f2937;
+}
+
+
+
+
+
+
