@@ -37,6 +37,8 @@ a{
     color: azure;
 }
 
+/* Hero Section starts here */
+
 .imageplaceholder{
     display: flex;
     width: 500px;         
@@ -90,6 +92,22 @@ a{
     background-color: hsl(217, 82%, 37%); 
 }
 
+/* Information Section Starts here */
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 20px 0 25px 0;
+}
+
 .box-grid{
     display: flex;
     justify-content: center;
@@ -111,7 +129,38 @@ a{
     height: 150px;
     background-color: transparent;
     border: 3px solid blue;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 
+.box-grid .text{
+    color: rgb(101, 138, 140);
+    line-height: 1;
+    font-size: 16px;
+}
 
+/* quote container starts here */
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-container .text{
+    display: flex;
+    max-width: 800px;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    flex-wrap: wrap;
+}
+
+.quote-container .sign{
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    justify-content: end;
+    font-weight: bold;
+}
